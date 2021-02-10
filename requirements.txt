@@ -10,9 +10,6 @@ certbot-nginx==0.40.0
 certifi==2020.12.5
 cffi==1.14.4
 chardet==4.0.0
-command-not-found==0.3
-ConfigArgParse==0.13.0
-configobj==5.0.6
 coreapi==2.3.3
 coreschema==0.0.4
 cryptography==3.3.1
