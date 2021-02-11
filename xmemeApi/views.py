@@ -44,7 +44,7 @@ class MemeAPIView(generics.ListCreateAPIView):
                 try:
                     validate(value)
                 except ValidationError:
-                    return HttpResponse(status=status.HTTP_400_BAD_REQUEST)     # return error for invalid url
+                    return Response("Enter a valid URL.",status=status.HTTP_400_BAD_REQUEST)     # return error for invalid url
             
             return Response(serializer.data, status=status.HTTP_201_CREATED)    # return http satuts 201 when post is created successfully
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)  # return error for invalid data
