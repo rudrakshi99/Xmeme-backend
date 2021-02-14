@@ -19,7 +19,7 @@
 
 - Fork and Clone the repo using
 ```
-git clone https://github.com/rudrakshi99/Xmeme.git
+git clone https://github.com/rudrakshi99/Xmeme-backend.git
 cd backend
 ```
 - Install dependencies using
